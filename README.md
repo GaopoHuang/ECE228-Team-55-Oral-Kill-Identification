@@ -2,7 +2,7 @@
 
 This repository is created for the final project of ECE 228. In this project, we implmented various models with different combinations of backbone  networks, pooling layers, and metric-learning approach, and studied their impact on image-based medication identification. 
 
-## Model architecture  
+## Model Architecture  
 
 The model architecture overview is shown here. The best model that we found is to use a base netowrk of ResNet152, a Blinear CNN Pooling Layer and a multihead-metric learning for classification, with a MAP score of 95.65 and GAP score of 83.66. 
 ![Model overview](imgs/Architecture.png)
@@ -53,7 +53,10 @@ This dataset is truncated from public databases to create a low-shot recognition
 
 ## Installation and Setup
 
-We recommend running the training and testing experiment with Google Colab using our prepared  *[Google Colab script](ECE228_Oral_Pill_Identification.ipynb)*. We show all the installation and setup steps in this notebook,including dataset, repository, and commands to train and test the model. All dependencies and packages work as tested on June 9th, 2022. 
+We recommend running the training and testing experiment with **Google Colab** using our prepared  *[Google Colab script](ECE228_Oral_Pill_Identification.ipynb)*. We show all the installation and setup steps in this notebook,including dataset, repository, and commands to train and test the model. All dependencies and packages work as tested on June 9th, 2022. 
+
+1. Download **[Google Colab script](ECE228_Oral_Pill_Identification.ipynb)**
+2. Open **[Google Colab](https://colab.research.google.com/)**, upload the downloaded scrip, follow the instruction and run each cell block sequentially.
 
 If you have any problems with package and dependencies, you can check the the original [ePillID benchmark github repository docker file](
  https://github.com/usuyama/ePillID-benchmark/tree/master/docker) for a package list.
