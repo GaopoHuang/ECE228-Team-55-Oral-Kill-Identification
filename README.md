@@ -51,6 +51,13 @@ This dataset is truncated from public databases to create a low-shot recognition
 └── ECE228_Oral_Pill_Identification.ipynb #Main script to install all dependencies and run model in Google Colab
 ```
 
+## Installation and Setup
+
+We recommend running the training and testing experiment with Google Colab using our prepared  *[Google Colab script](ECE228_Oral_Pill_Identification.ipynb)*. We show all the installation and setup steps in this notebook,including dataset, repository, and commands to train and test the model. All dependencies and packages work as tested on June 9th, 2022. 
+
+If you have any problems with package and dependencies, you can check the the original [ePillID benchmark github repository docker file](
+ https://github.com/usuyama/ePillID-benchmark/tree/master/docker) for a package list.
+
 ## Notes and Acknowledgement
 
 We forked the original [ePillID Benchmark repo](https://github.com/usuyama/ePillID-benchmark), modified and implemented their code to run models with different combination of base networks and pooling layers. 
